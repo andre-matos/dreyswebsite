@@ -148,6 +148,12 @@ nav a {
   height: 421px;
 }
 
+.web2 {
+  background-image: url(pics/handdrawdrey.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .web img {
   width: 100%;
 }
