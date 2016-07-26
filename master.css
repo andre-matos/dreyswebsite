@@ -45,12 +45,21 @@ body {
 }
 
 .button_small {
-  padding: .3rem 1.5rem;
+  padding: .5rem 1.5rem;
 }
 
 .button_large {
   padding: 1rem 5rem;
   font-size: 1.35rem;
+}
+
+.button_hover_txt:hover {
+  color: #008CBA;
+  text-decoration: underline;
+}
+
+.button_hover_back:hover {
+  background-color: #008CBA;
 }
 
 .cf::after,
