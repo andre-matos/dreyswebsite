@@ -271,6 +271,7 @@ footer {
   text-decoration: none;
 }
 
+/* That section is for responsive css */
 @media only screen and (min-width:360px) and (max-width:650px)
 {
   #banner {

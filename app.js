@@ -1,3 +1,4 @@
+// Thats a javascript for smooth scroll //
 $(document).ready(function() {
   setBindings();
 });
