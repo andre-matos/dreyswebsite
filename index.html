@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="master.css" media="screen" title="no title" charset="utf-8">
@@ -14,10 +14,10 @@
         <header>
           <p id="logo">Andre<span>"Drey"</span>Matos</p>
           <nav>
-            <a href="#" class="button_hover_txt">Home</a>
-            <a href="#websites" class="button_hover_txt">Me</a>
-            <a href="#past_project" class="button_hover_txt">Projects</a>
-            <a href="#contact" class="button_hover_txt">Contact</a>
+            <a id="home" href="#homeSection" class="button_hover_txt">Home</a>
+            <a id="websites" href="#websitesSection" class="button_hover_txt">Me</a>
+            <a id="past_project" href="#past_projectSection" class="button_hover_txt">Projects</a>
+            <a id="contact" href="#contactSection" class="button_hover_txt">Contact</a>
           </nav>
         </header>
         <div class="content">
@@ -25,14 +25,14 @@
           <h2 class="sub_title">This is the place to read and see about me.<br>
           Take a pic on my projects and let me know what you think.</h2>
           <div class="button_wrapper">
-            <a href="#" class="button button_highlight button_hover_back" >About Me</a>
+            <a href="#websites" class="button button_highlight button_hover_back" >About Me</a>
             <a href="#contact" class="button button_secondary button_hover_back">Talk to ME</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="websites" class="cf">
+    <section id="websitesSection" class="cf">
       <div class="wrapper">
         <div class="web">
           <h2>ePortfolio</h2>
@@ -50,7 +50,7 @@
       </div>
     </section>
 
-    <section id="past_project">
+    <section id="past_projectSection">
       <div class="wrapper">
         <h2 class="title">My Work</h2>
         <ul id="slider">
@@ -64,7 +64,7 @@
       </div>
     </section>
 
-    <section id="contact">
+    <section id="contactSection">
       <div class="wrapper">
         <h2 class="title">Talk to Me</h2>
         <p class="sub_title">What do you think about my Website? Did you like my projects? Any idea how to improve?</p>
@@ -73,7 +73,10 @@
     </section>
 
     <footer>
-      <p class="copyright">&copy; 2016 Andre Matos <a href="#" class="button_hover_txt">/ Andre"Drey"Matos</p>
+      <p class="copyright">&copy; 2016 Andre Matos <a href="#home" class="button_hover_txt">/ Andre"Drey"Matos</p>
     </footer>
+
+    <script src="lab/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html
